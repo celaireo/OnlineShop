@@ -8,25 +8,25 @@ Ce projet est une application web Django qui met en place une API pour une bouti
 
 2. Clonez ce dépôt sur votre machine :
 
-git clone https://github.com/celaireo/OnlineShop.git
+- git clone https://github.com/celaireo/OnlineShop.git
 
 
 3. Accédez au répertoire du projet :
-cd OnlineShop
+- cd OnlineShop
 
 
 4. Installez les dépendances requises à partir du fichier `requirements.txt` :
-pip install --upgrade setuptools
-pip install -r requirements.txt
+- pip install --upgrade setuptools
+- pip install -r requirements.txt
 
 
 5. Effectuez les migrations de la base de données pour créer les tables nécessaires :
-python manage.py migrate
+- python manage.py migrate
 
 
 6. Lancez le serveur de développement :
-python manage.py init_local_dev
-python manage.py runserver
+- python manage.py init_local_dev
+- python manage.py runserver
 
 
 L'application est désormais accessible à l'adresse `http://127.0.0.1:8000/`.
@@ -53,6 +53,6 @@ L'interface d'administration Django est accessible à l'adresse `http://127.0.0.
 Si vous souhaitez contribuer à ce projet, n'hésitez pas à créer une demande d'extraction (pull request) ou à signaler des problèmes (issues) sur le dépôt GitHub.
 
 ## la valeur des username et password
-Username : admin-oc
-Password : password-oc 
+- Username : admin-oc
+- Password : password-oc 
 
