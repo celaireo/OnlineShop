@@ -52,4 +52,7 @@ L'interface d'administration Django est accessible à l'adresse `http://127.0.0.
 
 Si vous souhaitez contribuer à ce projet, n'hésitez pas à créer une demande d'extraction (pull request) ou à signaler des problèmes (issues) sur le dépôt GitHub.
 
+## la valeur des username et password
+Username : admin-oc
+Password : password-oc 
 
