@@ -37,7 +37,7 @@ L'application est désormais accessible à partir de l'adresse `http://127.0.0.1
 - Username : admin-oc
 - Password : password-oc 
 
-## Utilisation de l'API
+## Utilisation de l'API : Les Endpoints
 
 * Si vous êtes utilisateurs, vous pouvez accéder à ces endpoints via des requêtes HTTP GET pour consulter les données.
   - `/api/category/` : Liste de toutes les catégories de produits.
