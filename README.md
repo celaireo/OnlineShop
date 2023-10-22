@@ -1,15 +1,18 @@
-# Boutique en ligne avec Django Rest Framework
+# Projet de Boutique en ligne avec Django
 
-Ce projet est une application web Django qui met en place une API pour une boutique en ligne. L'API permet aux utilisateurs de consulter un catalogue de produits classés par catégories, produits et articles.
+Notre projet consiste à mettre en place une API avec Django Rest Framework pour une boutique en ligne.  
+Cet API permet à des utilisateurs de consulter un catalogue de produits rangé par catégories, produits et articles. 
+Seuls les administrateurs auront la possibilité après authentification, d’ajouter, de modifier ou de supprimer ces informations après consultation. 
+
 
 ## Installation
 
 1. Assurez-vous d'avoir Python installé sur votre système. Si ce n'est pas le cas, téléchargez-le à partir de [Python's Official Website](https://www.python.org/downloads/).
 
+
 2. Clonez ce dépôt sur votre machine :
 
 - git clone https://github.com/celaireo/OnlineShop.git
-
 
 3. Accédez au répertoire du projet :
 - cd OnlineShop
@@ -28,17 +31,18 @@ Ce projet est une application web Django qui met en place une API pour une bouti
 - python manage.py init_local_dev
 - python manage.py runserver
 
-
-L'application est désormais accessible à l'adresse `http://127.0.0.1:8000/`.
+L'application est désormais accessible à l'adresse `http://127.0.0.1:8000/api/`.
 
 ## Utilisation de l'API
 
-L'API est accessible à l'adresse `http://127.0.0.1:8000/api/`. Voici quelques points d'accès principaux :
-- `/api/category/` : Liste de toutes les catégories de produits.
-- `/api/product/` : Liste de tous les produits.
-- `/api/article/` : Liste de tous les articles.
+* Si vous êtes utilisateurs, vous pouvez accéder à ces endpoints via des requêtes HTTP GET pour consulter les données.- `/api/category/` : Liste de toutes les catégories de produits.
+  - `/api/product/` : Liste de tous les produits.
+  - `/api/article/` : Liste de tous les articles.
 
-Vous pouvez accéder à ces points d'accès via des requêtes HTTP GET pour consulter les données.
+* Si vous êtes administrateur, vous pouvez accéder à ces endpoints via des requêtes Http GET, POST, PATCH et DELETE.
+  - `/api/admin/category/` : Pour les opérations CRUD sur les catégories de produits.
+  - `/api/admin/product/` : Pour les opérations CRUD sur produits.
+  - `/api/admin/article/` : Pour les opérations CRUD sur les articles.
 
 ## Documentation Swagger
 
