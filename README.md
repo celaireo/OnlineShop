@@ -31,11 +31,16 @@ Seuls les administrateurs auront la possibilité après authentification, d’aj
 - python manage.py init_local_dev
 - python manage.py runserver
 
-L'application est désormais accessible à l'adresse `http://127.0.0.1:8000/api/`.
+L'application est désormais accessible à partir de l'adresse `http://127.0.0.1:8000/api/`.
+
+7. La valeur des username et password
+- Username : admin-oc
+- Password : password-oc 
 
 ## Utilisation de l'API
 
-* Si vous êtes utilisateurs, vous pouvez accéder à ces endpoints via des requêtes HTTP GET pour consulter les données.- `/api/category/` : Liste de toutes les catégories de produits.
+* Si vous êtes utilisateurs, vous pouvez accéder à ces endpoints via des requêtes HTTP GET pour consulter les données.
+  - `/api/category/` : Liste de toutes les catégories de produits.
   - `/api/product/` : Liste de tous les produits.
   - `/api/article/` : Liste de tous les articles.
 
@@ -56,7 +61,5 @@ L'interface d'administration Django est accessible à l'adresse `http://127.0.0.
 
 Si vous souhaitez contribuer à ce projet, n'hésitez pas à créer une demande d'extraction (pull request) ou à signaler des problèmes (issues) sur le dépôt GitHub.
 
-## la valeur des username et password
-- Username : admin-oc
-- Password : password-oc 
+
 
